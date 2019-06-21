@@ -5,26 +5,25 @@ package com.sebastian.vertx.keycloak;
  */
 public class Saludo {
 
-    private String mensaje;
+  private String mensaje;
 
-    public Saludo() {
-    }
+  public Saludo() {}
 
-    public Saludo(final String str) {
-        mensaje = str;
-    }
+  public Saludo(final String str) {
+    mensaje = str;
+  }
 
-    public String getMensaje() {
-        return mensaje;
-    }
+  public String getMensaje() {
+    return mensaje;
+  }
 
-    public void setMensaje(String mensaje) {
-        this.mensaje = mensaje;
-    }
+  public void setMensaje(String mensaje) {
+    this.mensaje = mensaje;
+  }
 
-    @Override
-    public String toString() {
-        return "Saludo{" + "mensaje=" + mensaje + '}';
-    }
+  @Override
+  public String toString() {
+    return "Saludo{" + "mensaje=" + mensaje + '}';
+  }
 
 }
